@@ -6,7 +6,6 @@
   "main": "dist/server.js",
   "scripts": {
     "commit": "cz",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon --ignore 'src/data' src/server.ts",
     "start": "node dist/server.js",
     "lint": "eslint '*/**/*.{js,ts}' --quiet --fix",
