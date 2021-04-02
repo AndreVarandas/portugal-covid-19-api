@@ -88,6 +88,9 @@ export class DataController implements IControllerBase {
       }
     }
 
+    // Adds the data of the update, as it is removed above during the subtraction.
+    info.data = today.data
+
     res.status(200).json(info)
   }
 }
